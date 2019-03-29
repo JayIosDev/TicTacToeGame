@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
+    <device id="ipad10_5" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,21 +15,21 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TicTacToeGameProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1112" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j7t-QM-DR4">
-                                <rect key="frame" x="0.0" y="60" width="375" height="407"/>
+                                <rect key="frame" x="0.0" y="60" width="1112" height="574"/>
                                 <subviews>
                                     <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s2u-Jm-tbB">
-                                        <rect key="frame" x="0.0" y="0.0" width="125" height="134.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="370.5" height="189.5"/>
                                         <state key="normal" title="Button"/>
                                         <connections>
                                             <action selector="action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="c0l-YS-8m8"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SJE-qq-TVs">
-                                        <rect key="frame" x="125" y="0.0" width="125" height="134.5"/>
+                                        <rect key="frame" x="370.5" y="0.0" width="371" height="189.5"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <connections>
@@ -37,49 +37,49 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qJc-Ly-b94">
-                                        <rect key="frame" x="250" y="0.0" width="125" height="134.5"/>
+                                        <rect key="frame" x="741.5" y="0.0" width="370.5" height="189.5"/>
                                         <state key="normal" title="Button"/>
                                         <connections>
                                             <action selector="action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8Jm-Fk-cfY"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xHb-Yo-h2L">
-                                        <rect key="frame" x="0.0" y="134.5" width="125" height="134"/>
+                                        <rect key="frame" x="0.0" y="189.5" width="370.5" height="189.5"/>
                                         <state key="normal" title="Button"/>
                                         <connections>
                                             <action selector="action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rIC-ra-v7w"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GnD-Kg-5Li">
-                                        <rect key="frame" x="125" y="134.5" width="125" height="134"/>
+                                        <rect key="frame" x="370.5" y="189.5" width="371" height="189.5"/>
                                         <state key="normal" title="Button"/>
                                         <connections>
                                             <action selector="action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7Xh-vB-qg4"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WmT-DB-J6y">
-                                        <rect key="frame" x="250" y="134.5" width="125" height="134"/>
+                                        <rect key="frame" x="741.5" y="189.5" width="370.5" height="189.5"/>
                                         <state key="normal" title="Button"/>
                                         <connections>
                                             <action selector="action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="N9K-xj-3yN"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yp4-yH-Zuz">
-                                        <rect key="frame" x="0.0" y="268.5" width="125" height="134.5"/>
+                                        <rect key="frame" x="0.0" y="379" width="370.5" height="189.5"/>
                                         <state key="normal" title="Button"/>
                                         <connections>
                                             <action selector="action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZB5-v0-IXA"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="062-MT-RvY">
-                                        <rect key="frame" x="125" y="268.5" width="125" height="134.5"/>
+                                        <rect key="frame" x="370.5" y="379" width="371" height="189.5"/>
                                         <state key="normal" title="Button"/>
                                         <connections>
                                             <action selector="action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hca-nz-Qsk"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sBb-wz-4Wd">
-                                        <rect key="frame" x="250" y="268.5" width="125" height="134.5"/>
+                                        <rect key="frame" x="741.5" y="379" width="370.5" height="189.5"/>
                                         <state key="normal" title="Button"/>
                                         <connections>
                                             <action selector="action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zPT-wd-Wbg"/>
@@ -127,7 +127,7 @@
                                 </constraints>
                             </view>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SOC-R4-loX">
-                                <rect key="frame" x="136" y="497" width="103" height="32"/>
+                                <rect key="frame" x="504.5" y="664" width="103" height="32"/>
                                 <color key="backgroundColor" red="0.88711303470000002" green="0.41567652309999997" blue="0.3197967209" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="17"/>
                                 <state key="normal" title="Play Again">
@@ -138,9 +138,9 @@
                                 </connections>
                             </button>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cross has won" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SE6-oC-fZn">
-                                <rect key="frame" x="131.5" y="544" width="112" height="20.5"/>
+                                <rect key="frame" x="497" y="711" width="118.5" height="21.5"/>
                                 <color key="backgroundColor" red="0.039215686270000001" green="0.68235294120000001" blue="0.74901960779999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -150,10 +150,13 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="j7t-QM-DR4" secondAttribute="bottom" constant="200" id="BH5-mD-gYO"/>
                             <constraint firstItem="SE6-oC-fZn" firstAttribute="top" secondItem="SOC-R4-loX" secondAttribute="bottom" constant="15" id="EaM-am-EO4"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="SE6-oC-fZn" secondAttribute="trailing" constant="30" id="EdF-QZ-Xmt"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sBb-wz-4Wd" secondAttribute="trailing" id="Kfw-KM-bXh"/>
                             <constraint firstItem="SE6-oC-fZn" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="Nee-sk-wQv"/>
                             <constraint firstItem="SE6-oC-fZn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SCc-TH-Sr4"/>
                             <constraint firstItem="SOC-R4-loX" firstAttribute="top" secondItem="j7t-QM-DR4" secondAttribute="bottom" constant="30" id="SX4-j7-vka"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="SOC-R4-loX" secondAttribute="trailing" constant="20" id="TnH-yj-H8H"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qJc-Ly-b94" secondAttribute="trailing" id="YCB-f0-XzF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="WmT-DB-J6y" secondAttribute="trailing" id="ZmQ-j7-ea8"/>
                             <constraint firstItem="j7t-QM-DR4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="awf-Z2-MTa"/>
                             <constraint firstAttribute="trailing" secondItem="j7t-QM-DR4" secondAttribute="trailing" id="eT1-Ae-uch"/>
                             <constraint firstItem="SOC-R4-loX" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="hsa-SE-Nn4"/>
@@ -179,7 +182,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="61.600000000000001" y="0.44977511244377816"/>
+            <point key="canvasLocation" x="61" y="-29"/>
         </scene>
     </scenes>
 </document>

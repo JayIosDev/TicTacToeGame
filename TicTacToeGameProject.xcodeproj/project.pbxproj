@@ -59,15 +59,39 @@
 			isa = PBXGroup;
 			children = (
 				C2990C1A224DD9FF00259F1A /* AppDelegate.swift */,
-				C2990C1C224DD9FF00259F1A /* ViewController.swift */,
-				C2990C2C224DEF6F00259F1A /* ViewModel.swift */,
-				C2990C2E224DEF7A00259F1A /* Model.swift */,
+				C2990C30224E4F7400259F1A /* controllers */,
+				C2990C31224E4F8500259F1A /* ViewModels */,
+				C2990C32224E4F9E00259F1A /* Models */,
 				C2990C1E224DD9FF00259F1A /* Main.storyboard */,
 				C2990C21224DDA0200259F1A /* Assets.xcassets */,
 				C2990C23224DDA0300259F1A /* LaunchScreen.storyboard */,
 				C2990C26224DDA0300259F1A /* Info.plist */,
 			);
 			path = TicTacToeGameProject;
+			sourceTree = "<group>";
+		};
+		C2990C30224E4F7400259F1A /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C2990C1C224DD9FF00259F1A /* ViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		C2990C31224E4F8500259F1A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				C2990C2C224DEF6F00259F1A /* ViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C2990C32224E4F9E00259F1A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C2990C2E224DEF7A00259F1A /* Model.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

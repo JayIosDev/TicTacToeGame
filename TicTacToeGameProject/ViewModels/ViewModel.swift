@@ -8,8 +8,7 @@
 
 import UIKit
 class ViewModel {
-    var modelObject = Model()
-
+var modelObject = Model()
     
     func resettingGame(){
         
